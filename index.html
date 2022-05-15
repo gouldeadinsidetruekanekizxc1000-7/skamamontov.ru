@@ -18,6 +18,18 @@ aside div {
     margin: 10px;
     padding: 10px;
 }
+
+.sarai{
+    width: 300px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.sarai img{
+    width: 200px;
+}
+
     </style>
   
   </head>
@@ -25,6 +37,7 @@ aside div {
     <body>
         <header>
         <h1>deadinsidezxc.ru</h1>
+          <p> Я <span id="kto"> </span></p>
         <img src="https://c.tenor.com/sVNO62-MYV0AAAAM/zxc-cat.gif">
         </header>
         <br><br><br>
@@ -48,9 +61,14 @@ aside div {
             <aside>
                 <div class="sarai">
                 <img src="https://i.ytimg.com/vi/78KkLYxzwzY/hqdefault.jpg">
-                <a href="">Продам сарай</a>
+                <a href="https://youtu.be/dQw4w9WgXcQ">Продам сарай</a>
                 </div>
             </aside>
         </main>
     </body>
+  <script>
+    let imya = prompt("Введи своё имя")
+    let login = document.getElementById('kto')
+    login.InnerText = imya;
+    </script
 </html>
